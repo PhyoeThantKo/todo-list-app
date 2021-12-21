@@ -1,22 +1,33 @@
+body{
+     background-image: linear-gradient(to right top, #d10bae, #ff0b71, #ff6334, #efa100, #b9d30c);
+}
+
+#container{
+     display: grid;
+     place-items: center;
+     height: 100vh;
+}
+
 #wrap{
      width: 360px;
      margin: 20px auto;
      padding: 20px;
      border: 6px solid #DDD;
      overflow: hidden;
+     background-color: rgb(219, 203, 203);
 }
 
 h1{
      margin: 0 0 20px 0;
      padding: 0 0 5px 0;
      font-size: 18px;
-     border-bottom: 1px solid #DDD;
+     border-bottom: 1px solid black;
 }
 
 h1 span{
      float: right;
      display: block;
-     background: #9cf;
+     background: rgb(0, 128, 255);
      font-size: 12px;
      padding: 2px 6px;
      color: #fff;
@@ -54,7 +65,7 @@ li:hover a {
 #new-task {
      margin-top: 20px;
      padding-top: 10px;
-     border-top: 1px solid #efefef;
+     border-top: 1px solid #000000;
      overflow: hidden;
 }
 
@@ -68,11 +79,12 @@ li:hover a {
 }
 
 #new-task button{
+     margin-left: 10px;
      width: 30px;
      border: 1px solid #DDD;
      background: #eee;
      font-weight: bold;
-     color: #666;
+     color: black;
      padding: 2px 2px 3px 2px;
      float: left;
 }
