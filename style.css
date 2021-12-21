@@ -9,7 +9,7 @@ body{
 }
 
 #wrap{
-     width: 360px;
+     max-width: 360px;
      margin: 20px auto;
      padding: 20px;
      border: 6px solid #DDD;
