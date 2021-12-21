@@ -10,7 +10,9 @@ body{
 
 #wrap{
      max-width: 360px;
-     margin: 20px auto;
+     margin: 0px auto;
+     position: absolute;
+     top: 200px;
      padding: 20px;
      border: 6px solid #DDD;
      overflow: hidden;
